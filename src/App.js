@@ -19,11 +19,11 @@ class App extends Component {
         <div style={{width:"10%",  border:"solid 1px", marginTop: "5px", marginLeft: "5px", marginRight: "5px", borderRadius:"10px"}}>
           <nav style={{textAlign:"center", marginTop: "5px", marginLeft: "5px", marginRight: "5px"}}>
             <div  style={{ marginTop:"30px", height: "50px", display:"flex", justifyContent:"center", alignItems:"center"}}>
-              <NavLink activeStyle={{ color: 'black' }} to="/Users"><FaUserCog size="4em"/></NavLink>
+              <NavLink activeStyle={{ color: 'black' }} to="/"><FaUserCog size="4em"/></NavLink>
             </div>
           </nav>
         </div>
-          <Route path="/Users" component={UserManagement} />
+          <Route path="/" component={UserManagement} />
         </div>
       </div>
     );
